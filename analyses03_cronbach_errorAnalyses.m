@@ -7,7 +7,9 @@
 %%
 clear
 close all
-cd '/Volumes/GoogleDrive/My Drive/PhD/studies/Tracking 2 pleasures/data/matFiles'
+cd ..
+rootdir = pwd;
+cd([pwd '/data/matFiles/'])
 %% load data
 files = dir('*.mat');
 
@@ -15,7 +17,6 @@ idCount = 1;
 
 for file = files'
     
-    cd '/Volumes/GoogleDrive/My Drive/PhD/studies/Tracking 2 pleasures/data/matFiles'
     mat_file = file.name;
     load(mat_file);
     
@@ -65,7 +66,7 @@ for file = files'
 end
 
 %%
-cd '/Volumes/GoogleDrive/My Drive/PhD/studies/Tracking 2 pleasures/analyses'
+cd([rootdir '/analyses/'])
 % the NaN for one participant regarding baseline ratings is problematic, so
 % exclude him or her
 alpha_pre_one = cronbach(error_pre_one(2:end,:))
