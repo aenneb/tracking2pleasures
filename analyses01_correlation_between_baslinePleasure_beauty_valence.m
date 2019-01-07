@@ -1,12 +1,12 @@
 % relate the pleasure ratings to the "normative" beauty ratings obtained in
-% the mTurk study
+% a previous stuyd, Brielmann & Pelli (under review)
 %%
 clear
 close all
 
 cd ..
 
-cd([pwd '/data/4images/'])
+cd([pwd '/data/'])
 load baselineImageInformation
 
 cd([pwd '/matFiles/'])
