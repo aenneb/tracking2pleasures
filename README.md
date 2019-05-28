@@ -8,7 +8,7 @@ baselineImageInformation.mat contains average valence and arousal ratings from h
 The .m files provided allow replication of the analyses reported in Brielmann & Pelli (PBR, submitted) with the addition from some supporting scripts that can be found on MATLAB central. The analyses are numbered in the order the results appear in the manuscript.
 
 ## Original vs. replication data 
-Data files with dates from 2018 are part of the initial study with 13 participants. Data files with 2019 dates are part of a pre-registered (https://osf.io/x9wsf/) replication of this study.
+Data files located in the pilot_data folder (with dates from 2017) are part of the initial study with 13 participants. Data files within the replication_data folder (with 2019 dates) are part of a pre-registered (https://osf.io/x9wsf/) replication of this study.
 
 ## Recommended folder structure
 To run the analysis files as provided here, all files of this repository should be placed in one common folder.
