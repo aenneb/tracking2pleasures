@@ -11,6 +11,8 @@ Stats_per_participant provides the following values for each participant of the 
 
 The folder "experiment files" contains all files and folders (in the appropriate structure) to run the entire experiment using MATLAB (R2018b) and Psychtoolbox.
 
+## Additional information & files
+
 Detailed analysis description and Detailed methods description are docs that outline the experimental procedure and analyses in general terms. They serve as a non-MATLAB-based in-depth description for others who wish to replicate the analyses or the experiment but do not have access to MATLAB.
 
 ## Original vs. replication data 
